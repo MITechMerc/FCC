@@ -1,0 +1,34 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-caption {
+  color: grey;
+  font-size: 0.8em;
+}
+
+#tribute-info{
+  text-align: left;
+  line-height: 175%;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}

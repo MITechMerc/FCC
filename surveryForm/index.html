@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<h1 id="title">Elite Programmer Application</h1>
+
+<p id="description">This is an application to apply for the elite programmer program availble to FreeCodeCamp participants.</p>
+
+<form id="survey-form">
+<fieldset>
+
+<label for="name" id="name-label">Name: <input id="name" name="name" type="text" placeholder="John Smith" required /></label>
+
+<label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="john@gmail.com" required /></label>
+
+<label for="number" id="number-label">Rating (1-10): <input id="number" type="number" min="1" max="10" placeholder="10" />
+
+<label for="dropdown">How'd you hear about us?: 
+<select id="dropdown" name="dropdown">
+  <option>(select one)</option>
+  <option>Google</option>
+  <option>Social Media</option>
+  <option>Friend Refferal</option>
+  <option>Bootcamp</option>
+</select>
+</label>
+
+<label for="nightmode">Night Mode: 
+  <input type="radio" value="on" name="nightmode" id="nightmode" /> On
+  <input type="radio" value="off" name="nightmode" id="nightmode" selected /> Off
+</label>
+
+<label for="languages">Programming Languages You Know: <br />
+  <input type="checkbox" name="languages" id="languages" value="HTML" /> HTML
+  <input type="checkbox" name="languages" id="languages" value="C" /> C
+  <input type="checkbox" name="languages" id="languages" value="CPP" /> C++
+  <input type="checkbox" name="languages" id="languages" value="Ruby" /> Ruby
+  <input type="checkbox" name="languages" id="languages" value="Go" /> Go
+  <input type="checkbox" name="languages" id="languages" value="Rust" /> Rust
+  <input type="checkbox" name="languages" id="languages" value="Other" /> Other
+</label>
+
+<label for="otherlang">List Any Other Languages:
+<textarea name="otherlang" id="otherlang" placeholder="Other Languages Here" rows="3" cols="40"></textarea>
+</label>
+
+<input type="submit" id="submit" value="Submit Application" />
+
+</fieldset>
+</form>
+</body>
+
+</html>
